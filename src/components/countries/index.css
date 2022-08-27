@@ -1,0 +1,20 @@
+.country {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: white;
+}
+
+.button {
+  height: 25px;
+  width: 60px;
+  background-color: #3b82f6;
+  color: #94a3b8;
+  border-radius: 5px;
+  border-width: 0px;
+}
