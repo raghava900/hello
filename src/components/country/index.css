@@ -1,4 +1,35 @@
 .img {
-  height: 100px;
-  width: 150px;
+  height: 90px;
+  width: 190px;
+}
+
+.visited-list {
+  height: 130px;
+  width: 190px;
+  background-color: #1f1f2f;
+  margin: 15px;
+}
+
+.country-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: white;
+  font-weight: 300px;
+}
+
+.visited {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-visited {
+  margin: 2px;
+  border-radius: 5px;
+  height: 20px;
+  width: 80px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
 }

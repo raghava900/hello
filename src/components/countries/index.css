@@ -1,7 +1,13 @@
 .country {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.countries-list {
+  height: 300px;
+  width: 700px;
 }
 
 .name {
@@ -14,7 +20,16 @@
   height: 25px;
   width: 60px;
   background-color: #3b82f6;
-  color: #94a3b8;
+  color: white;
   border-radius: 5px;
   border-width: 0px;
+}
+
+.line {
+  width: 100%;
+  color: #94a3b8;
+}
+
+.list-name {
+  color: #94a3b8;
 }

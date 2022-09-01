@@ -1,21 +1,29 @@
 import './index.css'
 
 const Country = props => {
-  const {country, deleteTodo} = props
-  const {name, imageUrl, id} = country
+  const {countryList, deleteTodo} = props
+  const {name, imageUrl, id} = countryList
 
   const onDeleteTodo = () => {
     deleteTodo(id)
   }
 
   return (
-    <div>
+    <div className="visited-list">
+      {/* <li> */}
       <img src={imageUrl} alt="thumbnail" className="img" />
-      <p>{name}</p>
+      {/* </li> */}
 
-      <button type="button" onClick={onDeleteTodo}>
-        Remove
-      </button>
+      <div className="visited">
+        {/* <li> */}
+        <p className="country-name">{name}</p>
+        {/* </li> */}
+        {/* <li> */}
+        <button type="button" onClick={onDeleteTodo} className="button-visited">
+          Remove
+        </button>
+        {/* </li> */}
+      </div>
     </div>
   )
 }
